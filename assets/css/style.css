@@ -626,6 +626,7 @@ a {
 .service {
   background: var(--cultured-2);
   padding: 0.5rem;
+  padding-bottom: 4rem;
   /* padding-block: var(--section-padding); */
 }
 
@@ -1005,7 +1006,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: #54a643;
     max-width: 300px;
   }
