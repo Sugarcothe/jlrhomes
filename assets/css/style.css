@@ -987,6 +987,34 @@ a {
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #54a643;
+}
+.prop1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #54a643;
+    max-width: 300px;
+  }
+  .prop1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 .blog {
   padding-block: var(--section-padding);
