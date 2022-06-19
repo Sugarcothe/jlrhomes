@@ -146,16 +146,15 @@
 
             <a href="">
               <button class="header-bottom-actions-btn" aria-label="Profile">
-              <img src="./assets/images/rsz_1mail.png" alt="">
+              <ion-icon name="mail-outline"></ion-icon>
               <span>Mail</span>
             </button>
             </a>
             
 
             <button class="header-bottom-actions-btn" aria-label="Facebook">
-              <img src="./assets/images/rsz_call.png" alt="" srcset="">
-
-              <span>Call</span>
+              <ion-icon name="logo-twitter"></ion-icon>
+              <span>Twitter</span>
             </button>
 
             <button
@@ -177,82 +176,32 @@
         <!-- - #HERO
       -->
 
-        <section class="hero" id="home">
-          <div class="container">
-            <div class="hero-content">
+        <section class="landing" id="home">
+          <div class="container-landing">
+            <div class="landing-content">
               <p class="hero-subtitle">
                 <ion-icon name="home"></ion-icon>
 
-                <span>Real Estate Developer</span>
+                <span class="real">Real Estate Developer</span>
               </p>
 
-              <h2 class="h1 hero-title">
+              <h2 class="hero-title">
                 We Sell Lands and homes In Lagos, You Choose, We Deliver
               </h2>
 
-              <p class="hero-text">
+              <p class="landing-text">
                 Looking to Buy or Live in a Comfortable and lifestyle Estate with a sustainable building structure and a profitable scheme for investment
                 JLRHomes has got you covered.
                 call us on +2348102927779 or +2348021353721
               </p>
 
-              <a href="mailto:info@jlrhomes.com">
-                <button class="btn">Make An Enquiry</button>
+              <a class="anchor-href" href="mailto:info@jlrhomes.com">
+                <button class="btn-1">Make An Enquiry</button>
               </a>
-              <small
+              <small 
                 >You can send us a mail, and we will get back to you in less than
                 12 Hours</small
               >
-            </div>
-
-            <div class="hero-banner">
-                <div class="swiper">
-                  <!-- Additional required wrapper -->
-                  <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                      <img
-                        class="slider"
-                        src="./assets/images/3.jpg"
-                        alt="Modern house model"
-                        
-                      />
-                    </div>
-                    <div class="swiper-slide">
-                      <img
-                        class="slider"
-                        src="./assets/images/0.jpg"
-                        alt="Modern house model" 
-                        
-                      />
-                    </div>
-                    <div class="swiper-slide">
-                      <img
-                        class="slider"
-                        src="./assets/images/4.jpg"
-                        alt="Modern house model"
-                        
-                      />
-                    </div>
-                    <div class="swiper-slide">
-                      <img
-                        class="slider"
-                        src="./assets/images/5.jpg"
-                        alt="Modern house model"
-                        
-                      />
-                    </div>
-                  </div>
-                  <!-- If we need pagination -->
-                  <div class="swiper-pagination"></div>
-
-                  <!-- If we need navigation buttons -->
-                  <div class="swiper-button-prev"></div>
-                  <div class="swiper-button-next"></div>
-
-                  <!-- If we need scrollbar -->
-                  <!-- <div class="swiper-scrollbar"></div> -->
-                </div>
             </div>
           </div>
         </section>
@@ -283,35 +232,5 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script>
-      const swiper = new Swiper('.swiper', {
-        speed: 400,
-        spaceBetween: 100,
-        loop: true,
-
-        // If we need pagination
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: "true"
-        },
-
-        // Navigation arrows
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-
-          autoplay: {
-          delay: 3500,
-        },
-
-        // // And if we need scrollbar
-        // scrollbar: {
-        //   el: '.swiper-scrollbar',
-        // },
-      });
-    </script>
   </body>
 </html>
