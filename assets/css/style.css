@@ -627,8 +627,7 @@ small {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    
-    animation: 20s slide infinite;
+    animation: slide 18s ease;
   }
 
   @keyframes slide {
