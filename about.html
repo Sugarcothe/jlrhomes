@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <title>JLR - About</title>
   </head>
   <body>
@@ -157,25 +162,44 @@
     <section class="about" id="about">
       <div class="container">
         <figure class="about-banner">
-          <img src="./assets/images/about-banner-1.png" alt="House interior" />
+          <img src="./assets/images/about.jpeg" alt="House interior" />
+          <small class="ab-small"
+            >Olayinka Samuel, Managing Director JLR HOMES</small
+          >
+          <img src="./assets/images/about2.jpg" alt="House interior" />
+          <small class="ab-small">Mariam Alabi, Director JLR HOMES</small>
+          <img src="./assets/images/about1.jpg" alt="House interior" />
+          <small class="ab-small">JLR HOMES Network</small>
 
-          <img
-            src="./assets/images/about.jpeg"
+          <!-- <img
+            src="./assets/images/about-banner-2.jpg"
             alt="House interior"
             class="abs-img"
-          />
+          /> -->
         </figure>
 
         <div class="about-content">
-          <p class="section-subtitle">About Us</p>
+          <p class="section-subtitle">Our Journey</p>
 
           <h2 class="h2 section-title">
-            The Leading Real Estate Rental Marketplace.
+            About<span class="about-header-span">US</span>
           </h2>
 
           <p class="about-text">
-            Over 300+ houses sold, and about 1000+ lands sold in different
-            locations in Lagos, and around.
+            Justice League Realtors is a registered Real Estate Company with the
+            RC NO 3678087. We have been practicing Real Estate Services all
+            across Nigeria, with Abuja and Lagos being our main areas of
+            Activities. Our Real Estate practices include; Networking and
+            Marketing of Lands and Houses for individuals, associations,
+            churches and Mosques.
+            <br />
+            <br />
+            We are also recognized by some notable Real Estate firms like Zylus
+            Group, Gonimas Properties, Ragnarok, BRG, VOPNU City PWAN And
+            ICRPROPERTIES. We are a Group of Professional Developers with
+            efficient Sales People , Engineers , Architects, Surveyors and
+            Planners, all accountable and dedicated to the ever expanding scope
+            of the Real Estate sector.
           </p>
 
           <ul class="about-list">
@@ -213,13 +237,24 @@
           </ul>
 
           <p class="callout">
-            Looking to Buy or Live in a Comfortable and lifestyle Estate with a
-            sustainable building structure and a profitable scheme for
-            investment JLRHomes has got you covered. call us on +2348102927779
-            or +2348021353721
+            "Our Company JLR Homes An acronym for
+            <span class="span2">JUSTICE LEAGUE REALTORS</span>
+            A Real Estate Networking and Marketing Company based in lekki, Lagos
+            Nigeria."
           </p>
 
-          <a href="./service.html" class="btn">Our Services</a>
+          <figure class="ab-banner2">
+            <img src="./assets/images/about.jpeg" alt="House interior" />
+            <small class="ab-small"
+              >Olayinka Samuel, Managing Director</small
+            >
+            <img src="./assets/images/about2.jpg" alt="House interior" />
+            <small class="ab-small">Mariam Alabi, Director</small>
+            <img src="./assets/images/about1.jpg" alt="House interior" />
+            <small class="ab-small">JLR HOMES Network</small>
+          </figure>
+
+          <a href="#service" class="btn">Contact Us</a>
         </div>
       </div>
     </section>
@@ -233,6 +268,29 @@
         </div>
       </div>
     </footer>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "vertical",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+    </script>
 
     <script src="./assets/js/script.js"></script>
     <script
