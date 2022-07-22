@@ -496,6 +496,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  object-fit: cover;
   background-attachment:scroll;
   width: 100vw;
   height: 100%;
@@ -620,12 +621,14 @@ small {
 
 @media (max-width: 800px) {
   .landing {
-    background-image: url(../images/realt.jpeg);
+    background-image: url(../images/realt-mobile.jpeg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: 100vw;
+    object-fit: cover;
     background-attachment:scroll;
+    background-position: center;
+    /* background-size: cover; */
+    width: 100vw;
+    
     /* animation: slide 18s ease; */
   }
 
