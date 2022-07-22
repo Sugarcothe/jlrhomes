@@ -494,10 +494,11 @@ a {
 .landing {
   background-image: url(../images/realt.jpeg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   width: 100vw;
+  height: 100%;
   /* height: 100vh; */
   /* animation: 20s slide infinite; */
 }
@@ -1122,10 +1123,11 @@ small {
   }
 
   .little-section {
-  display: column;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #e4fcdf;
 }
 
 .card-little {
@@ -1136,8 +1138,6 @@ small {
   margin: auto;
   background-color: #c97705;
   padding: 1rem;
-  margin-top: 1rem;
-  
 }
 
 }
@@ -1147,6 +1147,7 @@ small {
   justify-content: center;
   align-items: center;
   margin: auto;
+  background-color: #e4fcdf;
 }
 
 .card-little {
@@ -1157,7 +1158,7 @@ small {
   margin: auto;
   background-color: #c97705;
   padding: 2rem;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 
 .card-little p {
