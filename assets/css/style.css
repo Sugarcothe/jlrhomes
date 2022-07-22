@@ -499,7 +499,7 @@ a {
   background-attachment: fixed;
   width: 100vw;
   height: 100vh;
-  animation: 20s slide infinite;
+  /* animation: 20s slide infinite; */
 }
 
 /* @keyframes slide {
@@ -624,7 +624,7 @@ small {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    animation: slide 18s ease;
+    /* animation: slide 18s ease; */
   }
 
   /* @keyframes slide {
