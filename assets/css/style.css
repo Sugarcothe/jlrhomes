@@ -494,11 +494,11 @@ a {
 .landing {
   background-image: url(../images/1-landing2.JPG);
   background-repeat: no-repeat;
-  /* background-position: center center; */
+  background-position: center center;
   background-size: cover;
   background-attachment: fixed;
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   /* animation: 20s slide infinite; */
 }
 
