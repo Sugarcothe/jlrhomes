@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 codewithsadee
+ * copyright 2022 valentine
  */
 
 /*-----------------------------------*\
@@ -478,25 +478,25 @@ a {
 }
 
 .header-bottom-actions-btn:is(:hover, :focus) ion-icon {
-  color: var(--orange-soda);
+  color: var(--orange-soda)
 }
 
 .header-bottom-actions-btn span {
   color: var(--cadet);
   font-family: var(--ff-poppins);
   font-size: var(--fs-7);
-  font-weight: var(--fw-500);
+  font-weight: var(--fw-500)
 }
 
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
 .landing {
-  background-image: url(../images/1-landing2.JPG);
+  background-image: url(../images/landn.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   width: 100vw;
   /* height: 100vh; */
   /* animation: 20s slide infinite; */
@@ -619,10 +619,11 @@ small {
 
 @media (max-width: 800px) {
   .landing {
-    background-image: url(../images/1-landing2.JPG);
+    background-image: url(../images/landn.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    width: 100vw;
     background-attachment: fixed;
     /* animation: slide 18s ease; */
   }
