@@ -620,7 +620,7 @@ small {
 
 @media (max-width: 800px) {
   .landing {
-    background-image: url(../images/realt-mobile.jpeg);
+    background-image: url(../images/realt.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
